@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ip-8fz2#3i3*q^2%s!6d+uc%byd#!8r5m^w+v2d!k^%=_otj2l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['www.hostaldonaclarita.tk']
 
