@@ -21,4 +21,5 @@ from login.views import(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', login, name="login"),
+    path('cuenta/', cuenta, name="cuenta"),
 ]
