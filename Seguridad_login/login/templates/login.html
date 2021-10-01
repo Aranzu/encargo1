@@ -3,12 +3,14 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
-	<title>Post Venta</title>
+	{% include 'snippets/header.html' %}
+	<title>Hostal Doña Clarita</title>
 </head>
 <body style="background-image: url({% static '/img/test.jpg'%});">
 	<div class="main_contenededor">
 		{% block contenido %}{% endblock %}
 	</div>
+	{% include 'snippets/footer.html' %}
 </body>
 
 </html>
