@@ -1,4 +1,18 @@
-<div class="main_contenededor poppins">
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+	<title>Post Venta</title>
+</head>
+<body style="background-image: url({% static '/img/test.jpg'%});">
+	<div class="main_contenededor">
+		{% block contenido %}{% endblock %}
+	</div>
+</body>
+
+</html>
+<!--<div class="main_contenededor poppins">
 	<br><br><br><br><br><br>
 	<form method="post" class="form-signin aligncenter">
 		<h1 class="h3 mb-3 font-weight-normal text-white">Sistema Hostal Doña Clarita.</h1>
@@ -12,4 +26,4 @@
 	<div class="d-flex flex-column">
    		<a class='m-auto text-white' href="#" id="olvidar_pass">¿Ha olvidado su contraseña?</a>
 	</div>
-</div>
+</div>-->

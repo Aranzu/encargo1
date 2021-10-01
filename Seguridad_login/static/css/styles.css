@@ -1,0 +1,177 @@
+/*Fuentes*/
+.poppins{
+	font-family: 'Poppins', sans-serif !important;
+}
+.monserrat{
+	font-family: 'Montserrat', sans-serif !important;
+}
+.tam-fuente{
+	font-size: 23px !important;
+}
+.tamfuente26{
+	font-size: 26px !important;
+}
+.tamfuente22{
+	font-size: 22px !important;
+}
+.main_contenededor{
+	min-height: 100vh;
+	height: 100%
+	background-color:rgb(11,13,38)!important;
+}
+.aligncenter{
+	text-align: center;
+}
+.dark_black{
+	color: #181a1d!important;
+}
+.textblack{color: #141d28!important;}
+.text-light-grey{
+	color: #abb5c7!important;
+}
+.text-white{
+	color:white!important;
+}
+.nav-link{color: #abb5c7!important;}
+.search-bar{
+	position: initial!important;
+	margin: auto;
+	display: block;
+	margin-bottom: 10px;
+	max-width: 1300px!important;
+}
+.form-control{
+	display: inline-block!important;
+	width: calc( 100% - 107px )!important;
+}
+#error_msg{
+	color: red;
+}
+
+.flexcontainer{
+	color: white;
+	font-size: larger;
+}
+.nodecoration{
+	text-decoration: none!important;
+}
+a{
+	text-decoration: none!important;
+}
+#bton_buscar2{
+	background-color: transparent!important;
+	border-color: white!important;
+}
+#bton_buscar3{
+	background-color: transparent!important;
+	border-color: white!important;
+}
+#bton_buscar10{
+	background-color: transparent!important;
+	border-color: white!important;
+}
+.bton_color2{
+	background-color: rgb(11,13,38)!important;
+	border-color: white!important;
+}
+.decoracion_linea{
+	text-decoration: underline;
+}
+/*Header container*/
+#header_container{
+	background-color: rgb(11,13,38);
+	padding-left: 32px!important;
+    padding-right: 32px!important;
+}
+/*Footer configs*/
+footer{
+	text-align: center;
+	background-color: transparent;
+}
+/*-------------------------------------------------------
+					LOGIN DE BOOTSTRAP
+---------------------------------------------------------*/
+.form-signin .checkbox {
+	font-weight: 400;
+}
+.form-signin {
+	width: 100%;
+	max-width: 400px;
+	padding: 15px;
+	margin: auto;
+}
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+z-index: 2;
+}
+.form-signin input[type="email"] {
+	margin-bottom: 15px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 15px;
+	
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+#bton_login{
+	width: 330px!important;
+	background-color: rgb(11,13,38)!important;
+	border-color: white!important;
+}
+#inputEmail{
+	width: 330px!important;
+}
+#inputPassword{
+	width: 330px!important;
+}
+/*Estilos visuales SweetAlert*/
+.bton_confirmar_dev{
+	background-color: rgb(11,13,38);
+}
+.bton_confirmar_dev:not([disabled]):hover{
+	background-color: rgb(11,13,38);
+}
+.swal-button{
+	background-color: rgb(11,13,38);
+	color:white;
+}
+.swal-button:not([disabled]):hover{
+	background-color: rgb(11,13,38);
+	color:white;
+}
+/*colores titulos*/
+.green-esmerald{
+	color: #68b030 !important;
+}
+body{
+	background-color: rgb(rgb(11,13,38));
+}
+/*---------------------------------------------Ediciones de Tabla---------------------------------*/
+thead{
+	background-color:  rgb(11,13,38);
+	color: #fff;
+}
+tbody{
+	background-color: white!important;
+}
+/*------------------------------------------------------------------------------------------------*/
+#panel_devolucion_proc{
+	background-color: transparent!important;
+}
+#panel_cuenta_proc{
+	background-color: transparent!important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #00386f!important;
+}
+.dropdown-menu{
+	text-align: center!important;
+}
