@@ -7,20 +7,20 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <div class="" id="header_container">
 	<header class="d-flex flex-wrap justify-content-center py-3 poppins">
-	  <a href="{% url 'home' %}" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none tamfuente26">
+	  <a href="{% url '*' %}" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none tamfuente26">
 	    <span class="fs-4">Post Venta</span>
 	  </a>
 	  <ul class="nav nav-pill  tam-fuente aligncenter">
-	    <li class="nav-item"><a href="{% url 'home' %}" class="nav-link text-white" aria-current="page">Inicio</a></li>
-	    <li class="nav-item"><a href="{% url 'devolucion' %}" class="nav-link text-white">Devoluciones</a></li>
+	    <li class="nav-item"><a href="{% url '*' %}" class="nav-link text-white" aria-current="page">Inicio</a></li>
+	    <li class="nav-item"><a href="{% url '*' %}" class="nav-link text-white">Devoluciones</a></li>
 	    <div style="width: 300px;">
 		   	<li style="width: inherit !important;" class="nav-item dropdown" id="proceso_devolucion">
 				<a class="nav-link dropdown-toggle text-white" href="#" id="dropdown05" data-bs-toggle="dropdown" 
 				aria-expanded="false">Proceso Devolución</a>
 				<ul style="width: inherit !important;" class="dropdown-menu" aria-labelledby="dropdown05" id="panel_devolucion_proc">
-					<li><a class="dropdown-item aligncenter text-white" href="{% url 'revision' %}">Gestión de Revisión</a></li>
-					<li><a class="dropdown-item aligncenter text-white" href="{% url 'despacho_stock' %}">Gestión de Stock</a></li>
-					<li><a class="dropdown-item aligncenter text-white" href="{% url 'anexo_boleta' %}">Gestión Anexo Boleta</a></li>
+					<li><a class="dropdown-item aligncenter text-white" href="{% url '*' %}">Gestión de Revisión</a></li>
+					<li><a class="dropdown-item aligncenter text-white" href="{% url '*' %}">Gestión de Stock</a></li>
+					<li><a class="dropdown-item aligncenter text-white" href="{% url '*' %}">Gestión Anexo Boleta</a></li>
 				</ul>
 	        </li>
     	</div>
@@ -28,7 +28,7 @@
 	    <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Cuenta</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown03" id="panel_cuenta_proc">
-              <li><a class="dropdown-item text-white aligncenter" href="{% url 'cuenta' %}">Iniciar Sesión</a></li>
+              <li><a class="dropdown-item text-white aligncenter" href="{% url '*' %}">Iniciar Sesión</a></li>
               <li><a class="dropdown-item text-white aligncenter" href="#">Perfil</a></li>
               <li><a class="dropdown-item text-white aligncenter" href="#">Cerrar sesión</a></li>
             </ul>
