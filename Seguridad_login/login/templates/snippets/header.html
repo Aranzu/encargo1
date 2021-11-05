@@ -12,15 +12,14 @@
 	  </a>
 	  <ul class="nav nav-pill  tam-fuente aligncenter">
 	    <li class="nav-item"><a href="#" class="nav-link text-white" aria-current="page">Inicio</a></li>
-	    <li class="nav-item"><a href="#" class="nav-link text-white">Devoluciones</a></li>
+	    <li class="nav-item"><a href="#" class="nav-link text-white">Registrar Cliente(No funcional)</a></li>
 	    <div style="width: 300px;">
-		   	<li style="width: inherit !important;" class="nav-item dropdown" id="proceso_devolucion">
+		   	<li style="width: inherit !important;" class="nav-item dropdown" id="gestion_proveedor">
 				<a class="nav-link dropdown-toggle text-white" href="#" id="dropdown05" data-bs-toggle="dropdown" 
-				aria-expanded="false">Proceso Devolución</a>
+				aria-expanded="false">Gestion Proveedor</a>
 				<ul style="width: inherit !important;" class="dropdown-menu" aria-labelledby="dropdown05" id="panel_devolucion_proc">
-					<li><a class="dropdown-item aligncenter text-white" href="#">Gestión de Revisión</a></li>
-					<li><a class="dropdown-item aligncenter text-white" href="#">Gestión de Stock</a></li>
-					<li><a class="dropdown-item aligncenter text-white" href="#">Gestión Anexo Boleta</a></li>
+					<li><a class="dropdown-item aligncenter text-white" href="{% url 'add_proveedor' %}">Registro Proveedor</a></li>
+					<li><a class="dropdown-item aligncenter text-white" href="{% url 'list_proveedor' %}">Listar Proveedor</a></li>
 				</ul>
 	        </li>
     	</div>

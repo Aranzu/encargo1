@@ -1,0 +1,21 @@
+
+    <center>
+
+    <h1>Registrar Proveedor</h1>
+    <br/><br/>
+    {% if registrado %}
+        El proveedor ha sido registrado exitosamente
+
+    {% else %}
+        <form action="" method=POST>
+            {% csrf_token %}
+
+            {{ form.as_p}}
+
+            <input type="submit" value="Registrar" class="btn btn-secondary">
+            
+        </form>
+
+    {% endif %}  
+
+    </center>
