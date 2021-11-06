@@ -1,9 +1,10 @@
 {% extends "login.html" %}
 {% block contenido %}
 {% load static %}
-    <center>
-
-        <h1>Proveedor:</h1>
+<div class="main_contenededor poppins">
+	<br><br><br><br><br><br>
+	<form method="post" class="form-signin aligncenter">
+		<h1 class="h3 mb-3 font-weight-normal text-white">Proveedor:</h1>
         <br/><br/>
         {{ proveedor.IDProveedor }}<br/>
         {{ proveedor.Nombre }}<br/>
@@ -13,5 +14,6 @@
         {{ proveedor.Rubro }}<br/>
 
 
-    </center>
+	</form>
+</div>
 {% endblock contenido %}
