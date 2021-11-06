@@ -19,8 +19,15 @@ from login.views import(
     login,
     cuenta,
 	)
+from proveedor.views import(
+    add_proveedor, list_proveedor, show_proveedor)
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', login, name="login"),
     path('cuenta/', cuenta, name="cuenta"),
+    path('add_proveedor', add_proveedor, name='add_proveedor'),
+    path('list_proveedor', list_proveedor, name='list_proveedor'),
+    path('show_proveedor/<IDProveedor>', show_proveedor, name='show_proveedor'),
+
 ]

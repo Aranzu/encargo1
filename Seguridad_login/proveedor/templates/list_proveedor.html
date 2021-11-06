@@ -1,0 +1,12 @@
+
+    <center>
+
+        <h1>Proveedores</h1>
+        <br/><br/>
+        {% for proveedor in proveedor_list %}
+
+            <a href="{% url 'show_proveedor' proveedor.IDProveedor %}">{{ proveedor }}</a><br/>
+
+        {% endfor %}
+    
+    </center>
